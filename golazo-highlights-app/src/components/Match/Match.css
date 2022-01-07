@@ -1,0 +1,7 @@
+.selection {
+    display: flex;
+}
+
+.img :hover{
+    padding: 10px;
+}
