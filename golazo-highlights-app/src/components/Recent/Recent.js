@@ -8,18 +8,12 @@ function Recent(props) {
         axios.get('https://www.scorebat.com/video-api/v3/') .then((res) => setMatches(res.data.response));
 
     }, []);
-    // useEffect(() => {
-	// 		fetch('https://www.scorebat.com/video-api/v3/')
-	// 			.then((res) => res.json())
-	// 			.then((json) => setMatch(json))
-	// 			.catch(console.error);
-	// 	}, []);
-    //     console.log(match)
+    console.log(matches)
 	return (
 		<div className='list'>
 			<h2>Recent Matches</h2>
             <div>{matches.map((match) => {
-                return <Match match={match} keey={match.title} />;
+                return <Match match={match} key={match.title} />;
             })}</div>
 		</div>
 	);

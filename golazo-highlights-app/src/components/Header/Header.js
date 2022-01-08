@@ -4,19 +4,21 @@ import './Header.css';
 
 function Header(props) {
 	return (
-		<nav className='navigation'>
-			<h1>
-				<Link to='/'>Golazo Highlights App</Link>
-			</h1>
-			<ul>
-				<li>
-					<Link to='/recent'>Recent Matches</Link>
-				</li>
-				<li>
-					<Link to='/about'>About</Link>
-				</li>
-			</ul>
-		</nav>
+		<>
+			<nav className='navigation'>
+				<h1>
+					<Link to='/'>Golazo Highlights App</Link>
+				</h1>
+				<ul>
+					<li>
+						<Link to='/recent'>Recent Matches</Link>
+					</li>
+					<li>
+						<Link to='/about'>About</Link>
+					</li>
+				</ul>
+			</nav>
+		</>
 	);
 }
 
