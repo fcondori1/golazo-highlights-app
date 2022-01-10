@@ -11,8 +11,8 @@ import './App.css';
 
 function App() {
 	return (
-		<div className='body'>
-			<header>
+		<div className='container'>
+			<header className='head'>
 				<Header />
 			</header>
 			<Routes>
