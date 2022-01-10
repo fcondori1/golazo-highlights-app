@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import Match from '../Match/Match';
+import Clip from '../Clip/Clip'
 
-function Recent(props) {
+function MatchDetails(props) {
 	const [matches, setMatches] = useState([]);
 	useEffect(() => {
 		axios
@@ -12,14 +12,14 @@ function Recent(props) {
 	console.log(matches);
 	return (
 		<div className='list'>
-			<h2>Recent Matches</h2>
+			<h2>MatchDetails Matches</h2>
 			<div>
 				{matches.map((match) => {
-					return <Match match={match} key={match.title} />;
+					return <Clip match={match} key={match.title} />;
 				})}
 			</div>
 		</div>
 	);
 }
 
-export default Recent;
+export default MatchDetails;

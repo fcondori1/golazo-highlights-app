@@ -5,16 +5,18 @@ import { Link } from 'react-router-dom';
 function Match({ match }) {
 	return (
 		<>
-		<Link to={`/recent/${match.title}`}>
-		<div className='selection'>
-			<img className='img' src={match.thumbnail} alt={match.title} />
-			<div className='game'>
-				<p key={match.title}>{match.title}</p>
-				<p>{match.competition}</p>
-				<p>{match.date}</p>
-			</div>
-		</div>
-		</Link>
+			{/* <Link to={`/recent/${match.title}`}> */}
+				<div className='selection'>
+					<a href={match.matchviewUrl} target='_blank' rel='noreferrer'>
+						<img className='img' src={match.thumbnail} alt={match.title} />
+						<div className='game'>
+							<p key={match.title}>{match.title}</p>
+							<p>{match.competition}</p>
+							<p>{match.date}</p>
+						</div>
+					</a>
+				</div>
+			{/* </Link> */}
 		</>
 	);
 }
