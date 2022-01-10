@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Recent from './components/Recent/Recent';
 import About from './components/About/About';
 import Main from './components/Main/Main';
-import MatchDetails from './components/MatchDetails/MatchDetails';
+// import MatchDetails from './components/MatchDetails/MatchDetails';
 
 
 import './App.css';

@@ -13,4 +13,19 @@
 .navigation li {
     list-style-type: none;
     padding: 1em;
+    text-decoration: none;
+
+}
+
+.navigation li:hover {
+    background-color: rgb(60, 109, 60);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
 }
