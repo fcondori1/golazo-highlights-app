@@ -9,7 +9,6 @@ function MatchDetails(props) {
 			.get('https://www.scorebat.com/video-api/v3/')
 			.then((res) => setMatches(res.data.response));
 	}, []);
-	console.log(matches);
 	return (
 		<div className='list'>
 			<h2>MatchDetails Matches</h2>

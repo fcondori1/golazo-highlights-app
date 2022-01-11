@@ -10,7 +10,7 @@ function Recent(props) {
 			.get('https://www.scorebat.com/video-api/v3/')
 			.then((res) => setMatches(res.data.response));
 	}, []);
-	console.log(matches);
+
 	return (
 		<div className='list'>
 			<h2 className='title'>Recent Matches</h2>
