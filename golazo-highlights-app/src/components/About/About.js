@@ -5,12 +5,17 @@ function About(props) {
 	return (
 		<div className='about-page'>
 			<h2>About</h2>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-				cupiditate quasi earum voluptatibus sequi quaerat fugit, ad explicabo
-				blanditiis minus? Possimus soluta odio ex natus iure repellat earum
-				ducimus veniam?
+			<p className='info'>
+				All information retired from the site can be accessed by the ScoreBat
+				site. Golazo uses the ScoreBat API but does not own any of the material
+				included.
 			</p>
+			<p className='info'>
+				All videos used are supplied by ScoreBat and Youtube
+			</p>
+			<button className='scorebat' onClick="location.href='https://www.scorebat.com/video-api/'">
+				ScoreBat
+			</button>
 		</div>
 	);
 }
