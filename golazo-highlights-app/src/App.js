@@ -19,10 +19,11 @@ function App() {
 				<Route path='/' element={<Main />} />
 				<Route path='/about' element={<About />} />
 				<Route path='/recent' element={<Recent />} />
-				{/* <Route path='/recent/:title' element={<MatchDetails />} /> */}
 			</Routes>
 		</div>
 	);
 }
 
 export default App;
+
+{/* <Route path='/recent/:title' element={<MatchDetails />} /> */}

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 import './Main.css'
 
@@ -15,8 +16,13 @@ function Main(props) {
 	return (
 		<div className='page'>
 			<p>Welcome to the Golazo(Goal) App!</p>
-			<p>Go to Recent Matches to see the lates games of the week and wait for updates to come for a better watching experience!</p>
-			<div className='stadium'></div>
+			<p>
+				Go to Recent Matches to see the lates games of the week and wait for
+				updates to come for a better watching experience!
+			</p>
+			<div className='stadium'>
+				<Link to='/recent'>Recent Matches</Link>
+			</div>
 		</div>
 	);
 }
