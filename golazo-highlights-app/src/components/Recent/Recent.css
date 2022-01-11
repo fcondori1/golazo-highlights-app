@@ -3,10 +3,13 @@
 }
 
 .currentStand {
-    width: 30px;
-    background-color: thistle;
+    width: 50px;
+    height: 20px;
+    background-color: rgb(9, 81, 99);
 }
 
 .standing {
     font-size: 10px;
+    display: flex;
+    justify-content: space-between;
 }
