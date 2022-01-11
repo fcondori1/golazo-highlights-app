@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Match from '../Match/Match';
+import './Recent.css';
 
 function Recent(props) {
 	const [matches, setMatches] = useState([]);
@@ -12,7 +13,7 @@ function Recent(props) {
 	console.log(matches);
 	return (
 		<div className='list'>
-			<h2>Recent Matches</h2>
+			<h2 className='title'>Recent Matches</h2>
 			<div className='list-match'>
 				{matches.map((match) => {
 					return <Match match={match} key={match.title} />;

@@ -1,0 +1,12 @@
+.title {
+    margin: 5px;
+}
+
+.currentStand {
+    width: 30px;
+    background-color: thistle;
+}
+
+.standing {
+    font-size: 10px;
+}
