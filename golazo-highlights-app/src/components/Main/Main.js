@@ -21,7 +21,7 @@ function Main(props) {
 				updates to come for a better watching experience!
 			</p>
 			<div className='stadium'>
-				<Link to='/recent'>Recent Matches</Link>
+				<Link to='/recent'></Link>
 			</div>
 		</div>
 	);
