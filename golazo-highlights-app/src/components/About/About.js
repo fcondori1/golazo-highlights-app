@@ -3,7 +3,7 @@ import './About.css';
 
 function About(props) {
 	return (
-		<div>
+		<div className='about-page'>
 			<h2>About</h2>
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi

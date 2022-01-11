@@ -13,7 +13,7 @@ function Recent(props) {
 	return (
 		<div className='list'>
 			<h2>Recent Matches</h2>
-			<div>
+			<div className='list-match'>
 				{matches.map((match) => {
 					return <Match match={match} key={match.title} />;
 				})}

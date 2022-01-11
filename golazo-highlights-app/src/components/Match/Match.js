@@ -10,9 +10,9 @@ function Match({ match }) {
 					<a href={match.matchviewUrl} target='_blank' rel='noreferrer'>
 						<img className='img' src={match.thumbnail} alt={match.title} />
 						<div className='game'>
-							<p key={match.title}>{match.title}</p>
-							<p>{match.competition}</p>
-							<p>{match.date}</p>
+							<p className='title' key={match.title}>{match.title}</p>
+							<p className='league'>{match.competition}</p>
+							{/* <p>{match.date}</p> */}
 						</div>
 					</a>
 				</div>

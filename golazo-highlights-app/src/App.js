@@ -15,6 +15,8 @@ function App() {
 			<header className='head'>
 				<Header />
 			</header>
+			<div className='color-left'></div>
+			<div className='color-right'></div>
 			<Routes>
 				<Route path='/' element={<Main />} />
 				<Route path='/about' element={<About />} />

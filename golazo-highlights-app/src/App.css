@@ -1,49 +1,52 @@
+body * {
+	color: #dad7cd;
+}
+
 body {
 	/* background-image: url('/public/soccerfield3.png'); */
-	color: rgb(168, 168, 168);
-	background-color: rgb(12, 32, 22);
+	color: #dad7cd;
+	background-color: #3a5a40;
 	/* display: grid;
 	grid-template-rows: 1fr 2fr 1fr;
 	grid-template-columns: 1fr 2fr 1fr; */
-	height: 100vh;
-	width: 100vh;
+	/* height: 100vh;
+	width: 100vh; */
+	width: auto;
 	
 }
 .container {
 	/* background-image: url('/public/soccerfield2.png'); */
-	background-color: black;
+	background-color: #588157;
 	/* background-size: cover; */
 	/* background-repeat: no-repeat; */
-	border: solid rgb(0, 238, 255) 10px;
-	padding: 0;
-	margin: 0;
-	width: 200vh;
-	height: 200vh;
-	display: grid;
-	grid-template-rows: 100px 2fr 1fr;
-	grid-template-columns: 1fr 2fr 1fr;
-}
-
-.head {
-	background-image: url('/public/smallfield.png');
-	background-color: rgb(59, 59, 59);
-	/* background-size: cover; */
-	/* background-repeat: no-repeat; */
-	/* border: solid rgb(105, 107, 107) 10px; */
+	/* border: solid rgb(0, 238, 255) 10px; */
 	padding: 0;
 	margin: 0;
 	width: 100%;
 	height: 100%;
-	grid-column: 2;
-	grid-row: 1;
+	display: grid;
+	grid-template-rows: 100px 1fr 100px;
+	grid-template-columns: 1fr 10fr 1fr;
 }
 
-/* .image {
-	background-image: url('/public/soccerfield2.png');
-	background-size: cover;
-	grid-column: 2;
-	grid-row: 2;
-} */
+.head {
+	/* background-image: url('/public/smallfield.png'); */
+	background-color: #344e41;
+	/* background-size: cover; */
+	/* background-repeat: no-repeat; */
+	/* border: solid rgb(105, 107, 107) 10px; */
+	/* padding: 0;
+	margin: 0; */
+	padding-left: 0;
+	width: 100%;
+	height: 100%;
+	grid-column: 1/span 3;
+	grid-row: 1;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
 
 .soccer {
 	border: solid red 10px;
@@ -54,4 +57,26 @@ body {
 .page {
     grid-row: 2;
     grid-column: 2;
+}
+
+.list {
+	grid-row: 2;
+    grid-column: 2;
+}
+
+.about-page {
+	grid-row: 2;
+    grid-column: 2;
+}
+
+.color-left {
+	background-color: #3a5a40;
+	grid-row: 2/span 2;
+	grid-column: 3/span 2;
+}
+
+.color-right {
+	background-color: #3a5a40;
+	grid-row: 2/span 2;
+	grid-column: 1;
 }
