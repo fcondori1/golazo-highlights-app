@@ -6,9 +6,11 @@ function Header(props) {
 	return (
 		<>
 			<nav className='navigation'>
-				<h1 className='title-a'>
+				<div className='title1'>
+				<h1 className='title'>
 					<Link to='/'>Golazo Highlights App</Link>
 				</h1>
+				</div>
 				<ul>
 					<li>
 						<Link to='/recent'>Recent Matches</Link>
