@@ -7,7 +7,8 @@
 
 .navigation ul {
 	display: flex;
-	padding: 1 em;
+	padding: 20px 10px;
+	align-items: center;
 }
 
 .navigation li {
@@ -33,5 +34,5 @@ a {
 	/* display: flex;
 	flex-direction: column;
 	justify-content: center; */
-	padding: 10px 15px;
+	padding: 10px 30px;
 }

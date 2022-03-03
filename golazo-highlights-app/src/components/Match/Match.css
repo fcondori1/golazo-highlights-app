@@ -15,6 +15,7 @@
 .card {
     border: solid white 2px;
     background-color: rgb(14, 18, 36);
+    /* margin: 0px 60px 0px 0px; */
 }
 
 .card :hover {
@@ -34,6 +35,16 @@
     align-items: center;
     flex-direction: column;
 }
+
+.currentStand {
+    width: 50px;
+    height: 20px;
+    background-color: rgb(9, 81, 99);
+}
+
 .standing {
+    font-size: 10px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
