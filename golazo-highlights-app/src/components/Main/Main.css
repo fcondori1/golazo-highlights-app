@@ -11,12 +11,15 @@
 .stadium {
     background-image: url('/public/stadium.png');
     background-size: 100%;
+    border-radius: 50px;
     width: 200px;
     height: 200px;
     margin-top: 20px;
+    align-items: center;
+    padding-top: 80px;
 }
 
 p {
-    border: solid red 1px;
+    /* border: solid red 1px; */
     width: 100%;
 }
