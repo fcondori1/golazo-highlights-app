@@ -13,9 +13,9 @@ function About(props) {
 			<p className='info'>
 				All videos used are supplied by ScoreBat and Youtube
 			</p>
-			<button className='scorebat' onClick="location.href='https://www.scorebat.com/video-api/'">
+			<a href='https://www.scorebat.com/video-api/' target='_blank' className='btn'>
 				ScoreBat
-			</button>
+			</a>
 		</div>
 	);
 }
