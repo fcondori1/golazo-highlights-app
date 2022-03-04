@@ -1,0 +1,25 @@
+.page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	text-align: center;
+    font-size: 20px;
+}
+
+.stadium {
+    background-image: url('/public/stadium.png');
+    background-size: 100%;
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    align-items: center;
+    padding-top: 80px;
+}
+
+p {
+    /* border: solid red 1px; */
+    width: 100%;
+}
