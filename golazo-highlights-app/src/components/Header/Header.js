@@ -7,7 +7,7 @@ function Header(props) {
 		<>
 			<nav className='navigation'>
 				<div className='title1'>
-				<h1 className='title'>
+				<h1 className='title2'>
 					<Link to='/'>Golazo Highlights App</Link>
 				</h1>
 				</div>
