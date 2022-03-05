@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import './Main.css';
+import 'animate.css';
 
 function Main(props) {
 	const [matches, setMatches] = useState([]);
@@ -15,12 +16,14 @@ function Main(props) {
 	// }
 	return (
 		<div className='page'>
-			<p>Welcome to the Golazo(Goal) App!</p>
-			<p>
+			<p className='animate__animated animate__backInLeft'>
+				Welcome to the Golazo(Goal) App!
+			</p>
+			<p className='animate__animated animate__backInRight'>
 				Click below to see the latest games of the week!
 			</p>
 			<Link to='/recent'>
-				<div className='stadium'>Matches</div>
+				<div className='stadium animate__animated animate__pulse animate__infinite'>Matches</div>
 			</Link>
 		</div>
 	);
