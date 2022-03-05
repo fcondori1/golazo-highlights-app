@@ -3,7 +3,7 @@ import './About.css';
 
 function About(props) {
 	return (
-		<div className='about-page'>
+		<div className='about-page animate__animated animate__zoomIn'>
 			<h2>About</h2>
 			<p className='info'>
 				All information retired from the site can be accessed by the ScoreBat
@@ -13,7 +13,10 @@ function About(props) {
 			<p className='info'>
 				All videos used are supplied by ScoreBat and Youtube
 			</p>
-			<a href='https://www.scorebat.com/video-api/' target='_blank' className='btn'>
+			<a
+				href='https://www.scorebat.com/video-api/'
+				target='_blank'
+				className='btn'>
 				ScoreBat
 			</a>
 		</div>
