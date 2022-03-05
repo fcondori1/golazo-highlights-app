@@ -6,8 +6,11 @@ function About(props) {
 		<div className='about-page animate__animated animate__zoomIn'>
 			<h2>About</h2>
 			<p className='info'>
-				All information retired from the site can be accessed by the ScoreBat
-				site. Golazo uses the ScoreBat API but does not own any of the material
+				Ever just need to relax and catch up on the latest football(soccer)
+				matches? The Golazo highlghts app allows you to browse the most recent
+				games and stay on top of the league tables using ScoreBat. All
+				information retrieved from the site can be accessed from ScoreBat.
+				Golazo uses the ScoreBat API but does not own any of the material
 				included.
 			</p>
 			<p className='info'>
